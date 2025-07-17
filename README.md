@@ -7,7 +7,7 @@
 
 ```bash
 TIL/
-├── Week01/
+├── Week/
 │   ├── Day01.md
 │   ├── Day02.md
 │   └── ...
