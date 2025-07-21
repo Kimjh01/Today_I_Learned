@@ -31,6 +31,7 @@
 
 - 설치 디렉토리 권장:  
   `C:\Program Files\OptiTrack\Motive`
+<img width="2764" height="661" alt="image" src="https://github.com/user-attachments/assets/b335fda7-f905-48a2-85ed-888074967d67" />
 
 ### Peripheral Module
 
