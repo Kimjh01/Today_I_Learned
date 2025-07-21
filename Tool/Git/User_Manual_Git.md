@@ -122,10 +122,4 @@ git config --global --list
 git config --global core.editor "code --wait"
 ```
 
----
-
-이 문서는 이미지 없이 작성된 텍스트 기반 Git 설치 가이드입니다.
-원하는 위치에 설치 캡처 이미지를 추가하시면 더욱 직관적인 문서가 됩니다.
-
-```
 
