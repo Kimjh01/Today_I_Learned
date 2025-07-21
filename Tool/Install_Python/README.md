@@ -113,13 +113,7 @@ Python 3.11.9
 
 ```bash
 code ~/.zprofile
-```
-
-```bash
 eval "$(pyenv init --path)"
-```
-
-```bash
 source ~/.zprofile
 ```
 
@@ -127,13 +121,7 @@ source ~/.zprofile
 
 ```bash
 code ~/.zshrc
-```
-
-```bash
 eval "$(pyenv init -)"
-```
-
-```bash
 source ~/.zshrc
 ```
 
