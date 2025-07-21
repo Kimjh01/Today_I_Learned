@@ -72,6 +72,8 @@ git --version
 ```
 git version 2.41.0
 ```
+<img width="580" height="334" alt="image" src="https://github.com/user-attachments/assets/e5622f7d-9308-4518-a75d-cd35d618d2fe" />
+
 
 ---
 
@@ -87,6 +89,8 @@ git version 2.41.0
 ```bash
 brew install git
 ```
+<img width="1024" height="296" alt="image" src="https://github.com/user-attachments/assets/a9c03199-bd0e-431f-9b92-b83be6372aa3" />
+
 
 설치가 완료되면 Git 실행 파일이 `/usr/local/bin/git` 경로에 위치합니다.
 
@@ -102,6 +106,9 @@ source ~/.zshrc
 > `.zshrc`는 macOS 기본 셸인 zsh의 설정 파일입니다.
 > 위 설정은 Git을 우선적으로 인식하도록 경로를 등록합니다.
 
+<img width="1024" height="88" alt="image" src="https://github.com/user-attachments/assets/d3f67751-4898-41e9-8a82-9c08804aa990" />
+
+
 ## 3. 설치 확인
 
 터미널에서 다음 명령어 입력:
@@ -115,6 +122,9 @@ git --version
 ```
 git version 2.41.0
 ```
+
+<img width="1024" height="128" alt="image" src="https://github.com/user-attachments/assets/7dee7848-bc4a-45c3-8422-4018fc89a3e8" />
+
 
 ---
 
