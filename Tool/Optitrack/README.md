@@ -2,6 +2,7 @@
 
 > **버전 기준일**: 2025.06.17  
 > 본 문서는 Motive, MATLAB, NatNet을 활용한 OptiTrack 시스템 설치 및 연동에 관한 가이드입니다.
+> 
 > [▶ YouTube 영상 보기](https://youtu.be/aK1cpr6ShPE?feature=shared)
 
 ---
