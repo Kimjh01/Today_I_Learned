@@ -13,6 +13,9 @@
 2. `Download for Windows` 버튼 클릭  
 3. 본인 CPU 구조(32bit 또는 64bit)에 맞는 `Standalone Installer` 다운로드  
 
+<img width="1011" height="784" alt="image" src="https://github.com/user-attachments/assets/67bd3241-b77c-4249-809e-265b06afaac3" />
+
+
 ### CPU 구조 확인 방법
 
 1. 시작 메뉴에서 `시스템`을 검색 후 실행  
