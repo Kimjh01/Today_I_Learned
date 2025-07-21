@@ -1,7 +1,8 @@
-# OptiTrack 설치 및 연동 가이드
+<img width="2091" height="1181" alt="image" src="https://github.com/user-attachments/assets/06fdee58-33bd-462c-b679-21e707245ad2" /># OptiTrack 설치 및 연동 가이드
 
 > **버전 기준일**: 2025.06.17  
 > 본 문서는 Motive, MATLAB, NatNet을 활용한 OptiTrack 시스템 설치 및 연동에 관한 가이드입니다.
+[▶ YouTube 영상 보기](https://youtu.be/aK1cpr6ShPE?feature=shared)
 
 ---
 
@@ -48,6 +49,8 @@
 - 라이선스 저장 경로:  
   `C:\ProgramData\OptiTrack\License`
 
+<img width="888" height="1122" alt="image" src="https://github.com/user-attachments/assets/0ae00d4a-43d2-4a55-999f-87ba5b8f0286" />
+
 ---
 
 ## 2. Calibration 적용
@@ -55,6 +58,7 @@
 - Motive 실행 후 **Open File** 클릭
 - Notion에 업로드된 압축 파일 내  
   `CalibrationResult_2025-04-29_10` 파일을 불러오기
+<img width="1201" height="779" alt="image" src="https://github.com/user-attachments/assets/0c0c6ad1-b7ff-4fef-852e-e7263e5038aa" />
 
 ---
 
@@ -73,6 +77,7 @@
 - 실행:
   - `NatNetSDK/Samples/Matlab` 내 코드 실행
   - Motive 설정 수정 필요 (실시간 스트리밍 허용 등)
+<img width="1507" height="1050" alt="image" src="https://github.com/user-attachments/assets/821d7829-e5a0-46ab-bf00-c6d1b69be6ab" />
 
 ---
 
@@ -87,6 +92,7 @@
     ```
     \NatNetSDK\lib\x64\NatNetML.dll
     ```
+<img width="1037" height="654" alt="image" src="https://github.com/user-attachments/assets/1ca56da3-e8c6-42c0-81e8-4d983946a255" />
 
 ---
 
@@ -101,6 +107,7 @@
 
 - **수동 마커**:  
   IR 광선을 완전히 반사할 수 있도록 **재귀반사 표면**이 필요
+<img width="934" height="597" alt="image" src="https://github.com/user-attachments/assets/b7bae758-072a-4cbb-ab6d-041d98394974" />
 
 ### 구매 링크
 
