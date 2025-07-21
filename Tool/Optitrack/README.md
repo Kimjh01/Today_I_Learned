@@ -1,4 +1,4 @@
-<img width="2091" height="1181" alt="image" src="https://github.com/user-attachments/assets/06fdee58-33bd-462c-b679-21e707245ad2" /># OptiTrack 설치 및 연동 가이드
+# OptiTrack 설치 및 연동 가이드
 
 > **버전 기준일**: 2025.06.17  
 > 본 문서는 Motive, MATLAB, NatNet을 활용한 OptiTrack 시스템 설치 및 연동에 관한 가이드입니다.
