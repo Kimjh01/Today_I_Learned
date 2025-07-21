@@ -1,4 +1,4 @@
-# Visual Studio Code 설치 및 설정 가이드
+<img width="1024" height="426" alt="image" src="https://github.com/user-attachments/assets/53aed6d8-b26a-4a0e-953b-ae5f2cb2bd45" /># Visual Studio Code 설치 및 설정 가이드
 
 ## VSCode를 사용하는 이유
 
@@ -21,6 +21,9 @@
 - 공식 웹사이트: [https://code.visualstudio.com/](https://code.visualstudio.com/)
 - 접속 후 `Download for Windows` 클릭하여 설치 파일을 다운로드합니다.
 
+  <img width="1024" height="620" alt="image" src="https://github.com/user-attachments/assets/04952311-898e-4bd2-8bbb-e51440c72f03" />
+
+
 ## 2. VSCode 설치
 
 - 다운로드한 `.exe` 파일을 실행하고 설치 마법사의 안내에 따라 진행합니다.
@@ -30,11 +33,21 @@
   - `지원되는 파일 형식에 대한 편집기로 등록`
   - `PATH에 추가`
 
+  <img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/cfefd631-8d8b-4542-a1ab-56a175f6f3fd" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/e20e3fa3-2073-41b3-85de-3f3d8f540100" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/47baa350-00d0-454e-b9c2-83ef8935116e" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/dff634b8-239f-4f8b-b44b-caf9a8219c34" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/72bc5d3d-a8fb-4bce-9e78-8a926feb3cde" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/994d88b0-e35c-46de-920b-cee7ee84ec4e" />
+<img width="1024" height="768" alt="image" src="https://github.com/user-attachments/assets/c108a6bb-2564-4a7f-93d3-ff7f3ab61f98" />
+
 > 위 설정을 통해 VSCode를 더 편리하게 사용할 수 있습니다.
 
 ## 3. 설치 확인
 
 - 폴더에서 마우스 우클릭 → `Code로 열기` 항목이 있는지 확인
+<img width="1024" height="764" alt="image" src="https://github.com/user-attachments/assets/c75dccd9-9658-4f22-a198-1a39e787b38f" />
+
 - 또는 명령 프롬프트에서 아래 명령어 입력:
 
 ```bash
@@ -52,6 +65,9 @@ code --version
 ```bash
 brew install --cask visual-studio-code
 ```
+<img width="1024" height="321" alt="image" src="https://github.com/user-attachments/assets/a8d526c0-4823-40bf-be49-41bfa566425f" />
+<img width="1024" height="661" alt="image" src="https://github.com/user-attachments/assets/80ed1999-97ae-492c-8bd4-17123330c7b5" />
+
 
 ## 2. PATH에 `code` 명령어 추가
 
@@ -63,11 +79,18 @@ brew install --cask visual-studio-code
 * 이후 `Terminal`에서 `code .` 명령어로 VSCode 실행 가능
 * 적용 후 터미널 재시작 필요
 
+<img width="1024" height="213" alt="image" src="https://github.com/user-attachments/assets/4d72984b-0606-41a2-a1b8-f3bc99645265" />
+<img width="1024" height="357" alt="image" src="https://github.com/user-attachments/assets/c5aba5be-2d8a-4663-aeae-552735419933" />
+
+
 ## 3. OpenInTerminal 설치 및 설정 (Finder에서 VSCode 실행용)
 
 ```bash
 brew install --cask openinterminal
 ```
+
+<img width="1024" height="336" alt="image" src="https://github.com/user-attachments/assets/f06c73c7-bd22-495b-8fbf-bd68ee2d4e4d" />
+
 
 ### 설정 방법
 
@@ -88,6 +111,10 @@ brew install --cask openinterminal
 
 > Python이 사전 설치되어 있어야 합니다.
 
+<img width="1024" height="422" alt="image" src="https://github.com/user-attachments/assets/a30cfd01-2ab8-45b9-ad53-0f3e099c247b" />
+<img width="1024" height="615" alt="image" src="https://github.com/user-attachments/assets/058c9f5c-d860-447e-aaba-6db7cfe630db" />
+
+
 ## Jupyter Extension
 
 > VSCode에서 `.ipynb` 주피터 노트북 실행을 위한 확장
@@ -101,6 +128,9 @@ brew install --cask openinterminal
 
 1. Extensions에서 `vscode-icons` 검색 후 설치
 2. 설치 후 테마 적용을 묻는 창에서 `Yes` 선택
+
+<img width="1024" height="426" alt="image" src="https://github.com/user-attachments/assets/3c414169-4e87-4745-8b6a-1c8924a2f8d3" />
+
 
 ---
 
@@ -118,4 +148,6 @@ brew install --cask openinterminal
   }
 }
 ```
+<img width="1024" height="569" alt="image" src="https://github.com/user-attachments/assets/8f478d0c-c807-4ea0-810b-9188874e6ed6" />
+
 
