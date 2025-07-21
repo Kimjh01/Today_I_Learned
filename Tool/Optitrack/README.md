@@ -59,7 +59,7 @@
 - Motive 실행 후 **Open File** 클릭
 - Notion에 업로드된 압축 파일 내  
   `CalibrationResult_2025-04-29_10` 파일을 불러오기
-<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/0c0c6ad1-b7ff-4fef-852e-e7263e5038aa" />
+<img width="400" height="200" alt="image" src="https://github.com/user-attachments/assets/0c0c6ad1-b7ff-4fef-852e-e7263e5038aa" />
 
 ---
 
