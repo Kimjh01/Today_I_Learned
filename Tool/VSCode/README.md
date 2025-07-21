@@ -10,8 +10,6 @@
 
 > 참고: 이미 설치되어 있어도 설정이 다를 수 있으므로, 새롭게 설치 및 설정하는 것을 권장합니다.
 
-<img width="1024" height="426" alt="image" src="https://github.com/user-attachments/assets/53aed6d8-b26a-4a0e-953b-ae5f2cb2bd45" />
-
 ---
 
 # Windows에서 설치하기
