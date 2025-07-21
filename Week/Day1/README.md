@@ -1,6 +1,3 @@
----
-
-```markdown
 # Day 1: Python 기초
 
 ## 용어 정리
