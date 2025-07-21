@@ -1,4 +1,4 @@
-<img width="1024" height="426" alt="image" src="https://github.com/user-attachments/assets/53aed6d8-b26a-4a0e-953b-ae5f2cb2bd45" /># Visual Studio Code 설치 및 설정 가이드
+# Visual Studio Code 설치 및 설정 가이드
 
 ## VSCode를 사용하는 이유
 
@@ -9,6 +9,8 @@
 - 무료로 사용 가능
 
 > 참고: 이미 설치되어 있어도 설정이 다를 수 있으므로, 새롭게 설치 및 설정하는 것을 권장합니다.
+
+<img width="1024" height="426" alt="image" src="https://github.com/user-attachments/assets/53aed6d8-b26a-4a0e-953b-ae5f2cb2bd45" />
 
 ---
 
@@ -33,7 +35,7 @@
   - `지원되는 파일 형식에 대한 편집기로 등록`
   - `PATH에 추가`
 
-  <img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/cfefd631-8d8b-4542-a1ab-56a175f6f3fd" />
+<img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/cfefd631-8d8b-4542-a1ab-56a175f6f3fd" />
 <img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/e20e3fa3-2073-41b3-85de-3f3d8f540100" />
 <img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/47baa350-00d0-454e-b9c2-83ef8935116e" />
 <img width="598" height="464" alt="image" src="https://github.com/user-attachments/assets/dff634b8-239f-4f8b-b44b-caf9a8219c34" />
