@@ -1,113 +1,131 @@
-<aside>
-💡 본 가이드는 버전 2.41.0 기준으로 작성되었습니다.
-설치 시기에 따라 버전은 다를 수 있습니다.
+# Git 설치 가이드 (버전 2.41.0 기준)
 
-</aside>
+> 본 가이드는 Git 버전 2.41.0을 기준으로 작성되었습니다.  
+> 설치 시기에 따라 Git 버전은 달라질 수 있습니다.
 
-# for Windows
+---
 
-## Git 다운로드하기
+# Windows에서 Git 설치하기
 
-1. [**https://git-scm.com/](https://git-scm.com/) 접속 → `Download for Windows`를 클릭합니다.**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/ee406ce1-e517-4302-a497-b1c321c8cd34/Untitled.png)
-    
+## 1. Git 다운로드
 
-1. **본인의 CPU에 해당하는 `Standalone Installer`를 클릭해 다운로드합니다.**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/6ce343ec-803f-4be0-8011-d68cf03c3419/Untitled.png)
-    
-    - **CPU 구조(32bit/64bit) 확인하는 방법**
-        1. **윈도우 키 클릭 → `시스템`을 검색 후 클릭합니다.**
-            
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/de03cb7c-b1ee-4679-8317-fa051ab1ea80/Untitled.png)
-            
-        
-        1. **시스템 종류에서 32비트/64비트 여부를 확인합니다.**
-            
-            ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/e8540b92-a3d4-4add-b5ca-927979fb1f3d/Untitled.png)
-            
+1. [https://git-scm.com/](https://git-scm.com/) 접속  
+2. `Download for Windows` 버튼 클릭  
+3. 본인 CPU 구조(32bit 또는 64bit)에 맞는 `Standalone Installer` 다운로드  
 
-## Git 설치하기
+### CPU 구조 확인 방법
 
-1. **다운로드한 설치파일을 실행합니다.**
+1. 시작 메뉴에서 `시스템`을 검색 후 실행  
+2. `시스템 종류` 항목에서 32비트/64비트 여부 확인
 
-1. **아래 순서대로 설치를 진행합니다.**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/f37bf318-7611-4d50-94c4-b8518cec54ca/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a40a7e71-24aa-4aad-9479-cfd378c39049/Untitled.png)
-    
-    ***※주의※ 절대로 Git 설치 경로를 변경하지 않습니다!***
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/87c8f72c-719f-4a60-8755-7573708dd617/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/44b2fde6-f1a1-4e87-8b43-add98d73f09b/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/7b663003-005e-495e-81df-3d815a340a5b/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/984a01a4-df6e-4af4-8ed4-6e463d5d4d53/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/d5079f22-08d1-4482-89ec-6453cf7a09e2/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b20f3634-428b-482f-a869-239522d7166f/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/9496f248-52b9-4b22-889d-c3a82802ce35/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4663ade-7c45-4d07-a194-47b86a2ca132/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbae0ead-3d34-4755-8f63-396f7f09ec3f/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/4bb63016-8220-4aa7-b77c-8e17196c2663/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/28f73867-d4d4-43e3-914a-48001cd43bab/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/cf45d9f3-370f-4b53-b01b-863afdd5f3ec/Untitled.png)
-    
-    - `Enable symbolic links`에 체크하는 이유?
-        - symbolic links를 활성화 함으로써 링크를 통해 원본 파일을 직접 사용하는 것과 같은 효과를 얻을 수 있습니다.
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/1eb738c0-2646-4b1a-bdf5-46389b49da94/Untitled.png)
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/c0f51ade-1a62-4111-867b-ed0d8d8111b3/Untitled.png)
-    
+## 2. Git 설치
 
-## Git 설치 확인하기
+1. 다운로드한 설치파일(`.exe`)을 실행  
+2. 설치 마법사 안내에 따라 기본 설정 그대로 진행 (`Next` 연속 클릭)
 
-1. **바탕화면에서 `마우스 우클릭` - `더 많은 옵션 표시` - `Git Bash Here` 옵션이 있는지 확인합니다.**
-    
-    **(windows10은 `마우스 우클릭` - `Git Bash Here`)**
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/a1e33200-3f2f-4078-b517-fa4cddbea711/Untitled.png)
-    
+> 반드시 설치 경로는 변경하지 마세요. (기본 경로 그대로 유지)
 
-# for macOS
+3. 설치 중 주요 설정 항목 예시:
+   - `Git from the command line and also from 3rd-party software`: 기본 선택 유지
+   - `Use the OpenSSL library`: 기본 선택 유지
+   - `Checkout Windows-style, commit Unix-style line endings`: 기본 선택 유지
+   - `Enable symbolic links`: **체크 권장**
 
-<aside>
-📌 Homebrew가 사전에 설치되어 있어야 합니다. ([macOS 초기 설정](https://www.notion.so/macOS-fbf122253a4049cbac3b48d2ebd0d751?pvs=21) )
+> `Enable symbolic links`: Git에서 심볼릭 링크를 지원하도록 설정. 원본 파일을 링크 형태로 다룰 수 있습니다.
 
-</aside>
+4. 설치 완료 후 `Finish` 클릭
 
-## Git 설치하기
+## 3. 설치 확인
 
-1. **터미널에서 아래 코드를 입력해 설치합니다.**
-    
-    ```bash
-    brew install git
-    ```
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/b4d5851e-8b83-4cf7-b8e6-26d1c8c0bc46/Untitled.png)
-    
+- 바탕화면 또는 폴더에서 **마우스 우클릭** → `Git Bash Here` 항목이 보이면 설치 완료  
+- 또는 명령 프롬프트(cmd) 또는 Git Bash에서 다음 명령어 실행:
 
-1. **터미널에서 아래 코드를 입력해 설정합니다.**
-    
-    ```bash
-    echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
-    source ~/.zshrc
-    ```
-    
-    ![Untitled](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/dbe0747e-4090-49c3-98c0-b96590727427/Untitled.png)
-    
-    - 설정 완료 후에도 터미널 상으로는 변화가 없으므로 한 번만 입력해주세요.
+```bash
+git --version
+````
 
-1. **터미널에서 아래 코드를 입력해 설치를 확인합니다.**
+정상 출력 예시:
+
+```
+git version 2.41.0
+```
+
+---
+
+# macOS에서 Git 설치하기
+
+> macOS에서는 Git 설치 전 **Homebrew**가 필요합니다.
+> 설치되지 않은 경우 [https://brew.sh/](https://brew.sh/) 참고
+
+## 1. Git 설치
+
+터미널에서 아래 명령어 입력:
+
+```bash
+brew install git
+```
+
+설치가 완료되면 Git 실행 파일이 `/usr/local/bin/git` 경로에 위치합니다.
+
+## 2. 경로(PATH) 설정
+
+Homebrew로 설치한 Git이 정상 작동하도록 `PATH`를 설정합니다:
+
+```bash
+echo 'export PATH="/usr/local/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
+```
+
+> `.zshrc`는 macOS 기본 셸인 zsh의 설정 파일입니다.
+> 위 설정은 Git을 우선적으로 인식하도록 경로를 등록합니다.
+
+## 3. 설치 확인
+
+터미널에서 다음 명령어 입력:
+
+```bash
+git --version
+```
+
+결과 예시:
+
+```
+git version 2.41.0
+```
+
+---
+
+# 설치 후 필수 설정 (공통)
+
+Git 설치 후 사용자 정보를 등록합니다:
+
+```bash
+git config --global user.name "Your Name"
+git config --global user.email "your@email.com"
+```
+
+설정 확인:
+
+```bash
+git config --global --list
+```
+
+---
+
+# 추가 권장 사항
+
+* GitHub 연동을 위한 **SSH Key 생성**
+* GUI 툴 사용 고려: **Sourcetree**, **GitKraken**, **GitHub Desktop** 등
+* 기본 에디터 설정: `vim` → `code` 등으로 변경 가능
+
+```bash
+git config --global core.editor "code --wait"
+```
+
+---
+
+이 문서는 이미지 없이 작성된 텍스트 기반 Git 설치 가이드입니다.
+원하는 위치에 설치 캡처 이미지를 추가하시면 더욱 직관적인 문서가 됩니다.
+
+```
+
