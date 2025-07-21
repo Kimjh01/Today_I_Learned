@@ -50,7 +50,7 @@
 - 라이선스 저장 경로:  
   `C:\ProgramData\OptiTrack\License`
 
-<img width="888" height="1122" alt="image" src="https://github.com/user-attachments/assets/0ae00d4a-43d2-4a55-999f-87ba5b8f0286" />
+<img width="400" height="600" alt="image" src="https://github.com/user-attachments/assets/0ae00d4a-43d2-4a55-999f-87ba5b8f0286" />
 
 ---
 
@@ -78,7 +78,7 @@
 - 실행:
   - `NatNetSDK/Samples/Matlab` 내 코드 실행
   - Motive 설정 수정 필요 (실시간 스트리밍 허용 등)
-<img width="1507" height="1050" alt="image" src="https://github.com/user-attachments/assets/821d7829-e5a0-46ab-bf00-c6d1b69be6ab" />
+<img width="600" height="400" alt="image" src="https://github.com/user-attachments/assets/821d7829-e5a0-46ab-bf00-c6d1b69be6ab" />
 
 ---
 
