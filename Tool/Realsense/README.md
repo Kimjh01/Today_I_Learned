@@ -13,6 +13,8 @@
 * **Body (B)**: IMU가 장착된 기준 좌표계. SLAM의 최적화 대상.
 * **Camera (C1, C2)**: 각각 좌/우 카메라 좌표계. z축은 카메라 전방.
 
+  <img width="523" height="329" alt="image" src="https://github.com/user-attachments/assets/787dd6b4-c22b-4bf5-9311-98e3c3ef8c54" />
+
 ### 관계식
 
 * 좌표변환 수식:
