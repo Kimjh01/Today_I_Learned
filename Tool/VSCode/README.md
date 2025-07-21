@@ -8,29 +8,25 @@
 - 전 세계에서 높은 점유율을 자랑하는 인기 에디터
 - 무료로 사용 가능
 
-> 참고: 이미 설치되어 있어도 설정이 다를 수 있으므로, 새롭게 설치 및 설정하는 것을 권장합니다.
-
 ---
 
 # Windows에서 설치하기
 
-> 본 가이드는 Windows 11 기준으로 작성되었습니다. Windows 10과 거의 동일합니다.
-
 ## 1. VSCode 다운로드
 
 - 공식 웹사이트: [https://code.visualstudio.com/](https://code.visualstudio.com/)
-- 접속 후 `Download for Windows` 클릭하여 설치 파일을 다운로드합니다.
+- 접속 후 `Download for Windows` 클릭하여 설치 파일을 다운로드
 
 ## 2. VSCode 설치
 
-- 다운로드한 `.exe` 파일을 실행하고 설치 마법사의 안내에 따라 진행합니다.
-- 설치 중 다음 항목을 반드시 체크하는 것을 권장합니다:
+- 다운로드한 `.exe` 파일을 실행하고 설치 마법사의 안내에 따라 진행
+- 설치 중 다음 항목을 반드시 체크하는 것을 권장:
 
   - `"Code로 열기"를 Windows 탐색기 상황 메뉴에 추가`
   - `지원되는 파일 형식에 대한 편집기로 등록`
   - `PATH에 추가`
 
-> 위 설정을 통해 VSCode를 더 편리하게 사용할 수 있습니다.
+> 위 설정을 통해 VSCode를 더 편리하게 사용할 수 있음.
 
 ## 3. 설치 확인
 
@@ -46,7 +42,7 @@ code --version
 
 # macOS에서 설치하기
 
-> macOS에서는 Homebrew가 설치되어 있어야 합니다. 설치되지 않은 경우 [https://brew.sh](https://brew.sh) 참고
+> macOS에서는 Homebrew가 설치되어 있어야 한다. 설치되지 않은 경우 [https://brew.sh](https://brew.sh) 참고
 
 ## 1. VSCode 설치
 
@@ -87,7 +83,7 @@ brew install --cask openinterminal
 1. VSCode 실행 → Extensions (`Ctrl+Shift+X`) 클릭
 2. `python` 검색 후 Microsoft 제공 Python 확장 설치
 
-> Python이 사전 설치되어 있어야 합니다.
+> Python이 사전 설치되어 있어야 한다.
 
 ## Jupyter Extension
 
