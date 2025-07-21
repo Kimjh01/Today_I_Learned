@@ -3,6 +3,7 @@
 본 문서는 ORB-SLAM3 또는 유사한 비주얼 슬램 시스템에서 **정확한 위치 추정**을 위한 Intel RealSense D455의 **내부/외부 파라미터 보정(calibration)** 방법을 다룹니다. Kalibr 도구를 활용한 카메라 및 IMU 보정 절차를 기반으로 정리했습니다.
 
 ---
+<img width="1920" height="667" alt="image" src="https://github.com/user-attachments/assets/d78216ba-1472-4d51-8de6-b464274fd6a0" />
 
 ## 1. 좌표계 정의 및 외부 파라미터 (Extrinsic Parameters)
 
