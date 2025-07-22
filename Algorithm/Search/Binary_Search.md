@@ -19,6 +19,8 @@ Binary Search : **정렬된 리스트**에서 검색 범위를 줄여 나가면�
 
 **정렬된 배열**을 인지하고 탐색을 진행할 것
 
+##Python Code
+
 ```python
 def binary_search(arr, target):
     low, high = 0, len(arr) - 1
@@ -42,6 +44,8 @@ if __name__ == "__main__":
     print(binary_search(data, 4))
 
 ```
+
+##C++ Code
 
 ```c++
 #include <iostream>
