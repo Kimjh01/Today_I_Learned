@@ -25,6 +25,8 @@ Stack : **후입선출(Last-In-Front-Out)** 방식의 자료구조, 즉 가장 �
 
 # 스택(Stack) 구현
 
+## Python Code
+
 ```python
 class Stack:
     def __init__:
@@ -56,6 +58,8 @@ if __name__ == "__main__":
     print(st.empty()) #False
 
 ```
+
+## C++ Code
 
 ```c++
 #include <iostream>
