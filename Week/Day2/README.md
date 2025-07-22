@@ -154,12 +154,15 @@ range(start, stop, step)
 * 모든 매개변수를 직접 지정
 * range(2, 10, 2) -> 2, 4, 6, 8
 
-stop 값은 생성되는 시퀀스에 절대 포함하지 않음! (n-1)까지 생성!
+stop 값은 생성되는 시퀀스에 (n-1)까지 생성되어 포함하지 않음
+
 step 값은 숫자 시퀀스의 간격과 방향을 결정
 
 ```python
-if(Step == 1): print('오름차순')
-elif(Step == -1): print('내림차순')
+if(Step == 1):
+    print('오름차순')
+elif(Step == -1):
+    print('내림차순')
 ```
 
 ---
