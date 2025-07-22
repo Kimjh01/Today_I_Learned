@@ -68,6 +68,9 @@ print(my_list)  # [1, 'two', 'three', 'four', 5]
 여러 개의 값을 순서대로 저장하는 **변경 불가능한(Immutable)** 시퀀스 자료형
 
 ### 튜플 표현
+- 인덱스를 연달아 사용하여 안쪽 리스트의 값에 접근할 수 있음
+- 먼저 바깥 리스트의 인덱스로 안쪽 리스트를 선택
+- 선택된 안쪽 리스트에 다시 한번 인덱스를 사용
 
 ```python
 my_tuple_1 = ()
@@ -80,6 +83,7 @@ my_tuple_4 = 1, 'hello', 3.14, True
 * 단일 요소일 경우 반드시 후행 쉼표 필요 (`(1,)`)
 
 ### 시퀀스로서의 튜플
+- 튜플 역시 시퀀스이므로, 인덱싱, 슬라이싱, 길이 확인, 반복 등 공통 기능을 모두 사용 가능
 
 ```python
 my_tuple = (1, 'a', 3, 'b', 5)
@@ -95,6 +99,7 @@ print(len(my_tuple))  # 5
 ```
 
 ### 튜플의 불변성
+- 한번 생성된 튜플은 그 내용을 절대 수정, 추가, 삭제할 수 없음
 
 ```python
 my_tuple = (1, 'a', 3, 'b', 5)
@@ -110,8 +115,16 @@ my_tuple[1] = 'z'  # TypeError 발생
 
 연속된 정수 시퀀스를 생성하는, **변경 불가능한(Immutable)** 자료형
 
+- 주로 반복문과 함께 사용되어 특정 횟수만큼 코드를 반복 실행할 때 매우 유용
+- 실제로 모든 숫자를 메모리에 저장하는 대신, 시작 값, 끝 값, 간격이라는 '규칙'만 기억하여 메모리를 매우 효율적으로 사용
+
+- range()는 1개, 2개, 또는 3개의 매개변수(인자)를 가질 수 있다.
+- range(start, stop, step) #엄밀히 함수, 반복문과 같이 사용
+- 매개변수: 함수를 정의할 때, 함수가 받을 값을 나타내는 변수
+- 인자: 함수를 호출할 때, 실제로 전달되는 값
+
 ```python
-range(n)         # 0 ~ n-1
+range(n) # 0 ~ n-1
 range(start, stop)
 range(start, stop, step)
 ```
@@ -121,9 +134,32 @@ my_range_1 = range(5)
 my_range_2 = range(1, 10)
 my_range_3 = range(5, 0, -1)
 
+# list형태로 출력
 print(list(my_range_1))  # [0, 1, 2, 3, 4]
 print(list(my_range_2))  # [1, ..., 9]
 print(list(my_range_3))  # [5, 4, 3, 2, 1]
+```
+
+range(stop) 
+* 매개변수가 하나면 stop으로 인식
+* Start는 0이, Step은 1이 기본값으로 자동 설정
+* range(5) -> 0, 1, 2, 3, 4
+
+range(start, stop) 
+* 매개변수가 두 개면 Start, Stop으로 인식
+* Step은 1이 기본값으로 자동설정
+* range(2, 5) -> 2, 3, 4
+
+range(start, stop, step) 
+* 모든 매개변수를 직접 지정
+* range(2, 10, 2) -> 2, 4, 6, 8
+
+stop 값은 생성되는 시퀀스에 절대 포함하지 않음! (n-1)까지 생성!
+step 값은 숫자 시퀀스의 간격과 방향을 결정
+
+```python
+if(Step == 1): print('오름차순')
+elif(Step == -1): print('내림차순')
 ```
 
 ---
