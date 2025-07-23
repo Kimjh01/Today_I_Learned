@@ -36,26 +36,26 @@ def make_sum(pram1, pram2): # function 인자는 parameter
 ```
 
 ### 함수 정의와 호출
-- 함수 정의(정의)
+- **함수 정의(정의)**
     - 함수 정의는 def 키워드로 시작
     - def 키워드 이후 함수 이름 작성
     - 괄호 안에 매개변수를 정의할 수 있음
     - 매개변수(parameter)는 함수에 전달되는 값
 
-- 함수 body
+- **함수 body**
     - 콜론(:) 다음에 들여쓰기 된 코드 블록
     - 함수가 실행 될 때 수행되는 코드를 저으이
 
-- Docstring 
+- **Docstring** 
     - 함수 body 앞에 선택적으로 작성 가능한 함수 설명서
 
-- 함수 반환 값
+- **함수 반환 값**
     - 함수는 필요한 경우 결과를 반환할 수 있음
     - return 키워드 이후에 반환할 값을 명시
     - return 문은 함수의 실행을 종료하고, 결과를 호출 부분으로 반환
     - 함수 내에서 return 문이 없다면 None이 반환
     
-- 함수 호출
+- **함수 호출**
     - 함수를 사용하기 위해서 호출이 필요
     - 함수의 이름과 소괄호를 사용해 호출
     - 필요한 경우 인자(argument)를 전달해야 함
@@ -65,7 +65,7 @@ def make_sum(pram1, pram2): # function 인자는 parameter
 
 ## 함수와 반환 값
 
-print() 함수는 반환 값이 없음
+**print() 함수는 반환 값이 없음**
 - print() 함수는 화면에 값을 출력하기만 할 뿐 반환(return)값이 없음
 - 파이썬에서 반환 값이 없는 함수는 기본적으로 None을 반환한다고 간주
 
@@ -84,10 +84,10 @@ print(result) # None
 
 ## 매개변수와 인자
 
-매개변수(parameter)
+**매개변수(parameter)**
 - 함수를 정의할 때, 함수가 받을 값을 나타내는 변수
 
-인자(argument)
+**인자(argument)**
 - 함수를 호출할 때, 실제로 전달되는 값
 
 ```python
@@ -103,7 +103,7 @@ print(sum_result)
 
 ## 다양한 인자 종류
 
-Positional Arguments(위치 인자)
+**Positional Arguments(위치 인자)**
 - 함수 호출 시 이자의 위치에 따라 전달되는 인자
 - 위치 인자는 함수 호출 시 반드시 값을 전달해야 함
 
@@ -115,7 +115,7 @@ greet('Alice', 25) # 안녕하세요, Alice님! 25살이시군요.
 greet('Alice') # TypeError: greet() missing 1 required positional argument: 'age'
 ```
 
-Default Argument Value(기본 인자 값)
+**Default Argument Value(기본 인자 값)**
 - 함수 정의에서 매개변수에 기본 값을 할당하는 것
 - 함수 호출 시 인자를 전달하지 않으면, 기본값이 매개변수에 할당됨
 
@@ -126,11 +126,11 @@ def greet(name, age = 30):
 greet('Bob') # 안녕하세요, Bob님! 30살이시군요.
 ```
 
-Keyword Arguments(키워드 인자)
+**Keyword Arguments(키워드 인자)**
 - 함수 호출 시 인자의 이름과 함께 값을 전달하는 인자
 - 매개변수와 인자를 일치시키지 않고, 특정 매개변수에 값을 할당할 수 있음
 - 인자의 순서는 중요하지 않으며, 인자의 이름을 명시하여 전달
->> 단, 호출 시 키워드 인자는 위치 인자 뒤에 위치해야 함
+> 단, 호출 시 키워드 인자는 위치 인자 뒤에 위치해야 함
 
 ```python
 def greet(name, age):
@@ -139,7 +139,7 @@ def greet(name, age):
 greet(age = 35, name = 'Dave') # 안녕하세요, Dave님! 35살이시군요.
 ```
 
-Arbitrary Argument Lists(임의의 인자 목록)
+**Arbitrary Argument Lists(임의의 인자 목록)**
 - 정해지지 않은 개수의 인자를 처리하는 인자 # 0개 이상을 처리 
 - 함수 정의 시 매개변수 앞에 '*'를 붙여 사용
 - 여러 개의 인자를 tuple로 처리 # Packing을 tuple(시퀀스, 변경 불가)로 
@@ -152,7 +152,7 @@ def calculate_sum(*args):
 calculate_sum(1, 100, 5000, 30)
 ```
 
-Arbitrary Keyword Argument Lists(임의의 키워드 인자 목록)
+**Arbitrary Keyword Argument Lists(임의의 키워드 인자 목록)**
 - 정해지지 않은 개수의 키워드 인자를 처리하는 인자 
 - 함수 정의 시 매개변수 앞에 '**'를 붙여 사용
 - 여러 개의 인자를 dictionary로 묶어 처리 #Packing을 dict로 
@@ -163,17 +163,17 @@ def print_info(**kwargs):
 print_info(name='Eve', age=30) # {'name' : 'Eve', 'age' : 30}
 ```
 
-함수 인자 권장 작성 순서
+**함수 인자 권장 작성 순서**
 - 위치 -> 기본 -> 가변 -> 가변 키워드
 - 호출 시 인자를 전달하는 과정에서 혼란을 줄일 수 있도록 함
->> 단, 모든 상황에 적용되는 절대적인 규칙은 아니며, 상황에 따라 유연하게 조정될 수 있음
+> 단, 모든 상황에 적용되는 절대적인 규칙은 아니며, 상황에 따라 유연하게 조정될 수 있음
 
 ```python
 def func(pos1, pos2, default_arg='default', *args, **kwargs):
     ...
 ```
 
-인자의 모든 종류를 적용한 예시 
+**인자의 모든 종류를 적용한 예시**
 
 ```python 
 def func(pos1, pos2, default_arg='default', *args, **kwargs):
@@ -222,7 +222,7 @@ print(factorial(5)) # 120111
 n! = n*(n-1)! -> n*(n-1)(n-2)* ... * 1
 5! = 5*4*3*2*1 = 120
 
-같은 문제를 다른 input을 통해서 해결
+**같은 문제를 다른 input을 통해서 해결**
 
 ```python
 def factorial(n):
@@ -234,19 +234,19 @@ def factorial(n):
 print(factorial(5)) # 120
 ```
 
-재귀 함수 특징
+**재귀 함수 특징**
 - 특정 알고리즘 식을 표현할 때 변수의 사용이 줄어들며, 코드의 가독성이 높아짐 
 - 1개 이상의 base case(종료되는 상황)가 존재하고, 수렴하도록 작성
 
-재귀 함수 활용시 기억해야 할것
+**재귀 함수 활용시 기억해야 할것**
 - 종료 조건을 명확히 할 것 
 - 반복되는 호출이 종료 조건을 향하도록 할 것
 
->> 재귀 함수는 메모리 사용량이 많고 느릴 수 있음
->> 종료 조건이 잘못되면 **스택 오버플로우** 에러가 발생할 수 있음
->> 복잡한 재귀 함수는 코드의 가독성을 저하시킴
+> 재귀 함수는 메모리 사용량이 많고 느릴 수 있음
+> 종료 조건이 잘못되면 **스택 오버플로우** 에러가 발생할 수 있음
+> 복잡한 재귀 함수는 코드의 가독성을 저하시킴
 
-재귀 함수를 사용하는 이유
+**재귀 함수를 사용하는 이유**
 - 문제의 자연스러운 표현
     - 복잡하 문제를 간결하고 직관적으로 표현
 - 코드의 간결성
@@ -277,10 +277,10 @@ print(sorted(numbers, reverse=True)) # [5, 4, 3, 2, 1]
 
 ## 함수와 Scope
 
-Python의 범위(Scope)
+**Python의 범위(Scope)**
 - 함수는 코드 내부에 local Scope를 생성하며, 그 외의 공간인 global scope로 구분
 
-범위와 변수 관계
+**범위와 변수 관계**
 - scope
     - global scope: 코드 어디에서든 참조할 수 있는 공간
     - local scope: 함수가 만든 scope(함수 내부에서만 참조 가능)
@@ -289,7 +289,7 @@ Python의 범위(Scope)
     - global variable scope: global scope에 정의된 변수
     - local variable scope: local scope에 정의된 변수
 
-scope 예시
+**scope 예시**
 
 num은 local scope에 존재하기 때문에 global scope에서 사용할 수 없음
 - 이는 변수의 **수명주기**와 연관이 있음
@@ -304,7 +304,7 @@ func()
 print('global', num) # NameError: name 'num' is not defined
 ```
 
-변수 수명주기(liecycle)
+**변수 수명주기(liecycle)**
 
 변수의 수명주기는 변수가 선언되는 위치와 scope에 따라 결정됨
 
@@ -315,7 +315,7 @@ print('global', num) # NameError: name 'num' is not defined
 3. local scope
     - 함수가 호출될 때 생성되고, 함수가 종료될 때까지 유지
 
-이름 검색 규칙(Name Resolution)
+**이름 검색 규칙(Name Resolution)**
 
 파이썬에서 사요되는 이름(식별자)들은 특정한 이름공간(namespace)에 저장됨
 - 아래 순서대로 이름을 찾아 나가며 LEGB Rule라 불림
@@ -324,13 +324,13 @@ print('global', num) # NameError: name 'num' is not defined
     3. Global scope: 최상단에 위치한 범위
     4. Built-in scope: 모든 것을 담고 있는 범위(정의하지 않고 사용하는 모든 것)
 
->> 함수 내에서는 바깥 Scope의 변수에 접근 가능하나 수정은 할 수 없음
+> 함수 내에서는 바깥 Scope의 변수에 접근 가능하나 수정은 할 수 없음
 
-LEGB Rule 예시 
+**LEGB Rule 예시** 
 
 sum이라는 이름을 global scope에서 사용함으로써, 기존 built-in scope에 있던 내장함수 sum을 사용하지 못하게 됨
 
->> sum을 참조 시 LEGB Rule에 따라 global에서 먼저 찾기 때문
+> sum을 참조 시 LEGB Rule에 따라 global에서 먼저 찾기 때문
 
 ```python
 print(sum) # <built-in function sum>
@@ -360,7 +360,7 @@ increment()
 print(num) # 1
 ```
 
-global 키워드 선언 전에 참조 불가
+**lobal 키워드 선언 전에 참조 불가**
 
 ```python
 num = 0 
@@ -373,7 +373,7 @@ def increment():
     num += 1
 ```
 
-매개변수에는 global 키워드 사용 불가
+**매개변수에는 global 키워드 사용 불가**
 
 ```python
 num = 0
@@ -391,7 +391,7 @@ def increment(num):
 
 ### 함수 이름 작성 규칙
 
-기본 규칙(Snake_names)
+**기본 규칙(Snake_names)**
 - 소문자와 언더스코어(_) 사용
 - 동사로 시작하여 함수의 동작 설명
 - 약어 사용 지양
@@ -405,23 +405,23 @@ def calc_price(p, t):
     return p + (p *t)
 ```
 
-구성 요소
+**구성 요소**
 - 동사 + 명사: save_user()
 - 동사 + 형용사 + 명사: calculate_total_price()
 - get/set 접두사: get_username(), set_username()
 
->> 이름만으로 '무엇을 하는지' 명확히 표현
->> True / False를 반환한다면 시작을 is 또는 has 추천
->> 프로젝트 내에 일관성을 지키는 것이 가독성을 향상시킴
+> 이름만으로 '무엇을 하는지' 명확히 표현
+> True / False를 반환한다면 시작을 is 또는 has 추천
+> 프로젝트 내에 일관성을 지키는 것이 가독성을 향상시킴
 
 ---
 
 ## 단일 책임 원칙
 
-단일 책임 원칙(Single Responsibility Principle)
+**단일 책임 원칙(Single Responsibility Principle)**
 - 모든 객체는 하나의 명확한 목적과 책임만을 가져야 함
 
-함수 설계 원칙
+**함수 설계 원칙**
 1. 명확한 목적
     - 함수는 한 가지 작업만 수행
     - 함수 이름으로 목적을 명확히 표현
@@ -478,7 +478,7 @@ def process_user_data(user_data):
 
 Packing: 여러 개의 데이터를 **하나의 컬렉션**으로 모아 담는 과정
 
-기본원리
+**기본원리**
 - 여러 개의 값을 하나의 튜플로 묶는 파이썬의 기본 동작
 - 한 변수에 콤마(,)로 구분된 값을 넣으면 자동으로 튜플로 처리
 
@@ -487,7 +487,7 @@ packed_values = 1, 2, 3, 4, 5
 print(packed_values) # (1, 2, 3, 4, 5)
 ```
 
-'*'을 활용한 패킹 (함수 매개변수 작성 시)
+**'*'을 활용한 패킹 (함수 매개변수 작성 시)**
 - 남는 위치 인자들을 튜플로 묶기 
 - *를 붙인 매개변수가 남는 위치 인자들을 모두 모아 하나의 튜플로 만듦
 
@@ -499,7 +499,7 @@ def my_func(*args):
 my_func(1, 2, 3, 4, 5)
 ```
 
-'**'을 활용한 패킹 (함수 매개변수 작성 시)
+**`'**'`을 활용한 패킹 (함수 매개변수 작성 시)**
 - 남는 위치 인자들을 딕셔너리로 묶기 
 - **를 붙인 매개변수가 남는 키워드 인자들을 모두 모아 하나의 딕셔너리로 만듦
 
@@ -510,9 +510,9 @@ def my_func2(**kwargs):
 
 my_func2(a=1, b=2, c=3)
 ```
-print 함수의 패킹 예시
+**print 함수의 패킹 예시**
 - print 함수에서 임의의 가변 인자를 작성할 수 있었던 이유
->> 인자 개수에 상관 없이 튜플 하나로 패킹 되어서 내부에서 처리
+> 인자 개수에 상관 없이 튜플 하나로 패킹 되어서 내부에서 처리
 
 ```python
 def my_func(*objects):
@@ -521,7 +521,7 @@ def my_func(*objects):
 
 my_func(1, 2, 3, 4, 5)
 ```
->> print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
+> print(*objects, sep=' ', end='\n', file=sys.stdout, flush=False)
 - objects를 텍스트 스트림 file로 인쇄하는데, sep로 구분되고 end를 뒤에 붙임
 - 있다면, sep, end, file 및 flush는 반드시 키워드 인자로 제공해야 함
 - 모든 비 키워드 인자는 str()이 하듯이 문자열로 변환된 후 스트림에 쓰이는데, sep로 구분되고 end를 뒤에 붙임
@@ -531,7 +531,7 @@ my_func(1, 2, 3, 4, 5)
 
 Unpacking: 컬렉션에 담겨있는 데이터들을 개별 요소로 펼쳐 놓은 과정
 
-기본원리
+**기본원리**
 - 튜플이나 리스트 등의 객체의 요소들을 개별 변수에 할당
 - '시퀀스 언패킹(Sequence Unpacking)' 또는 '다중 할당(Multiple Assignment)'이라고 부름
 
@@ -543,7 +543,7 @@ a, b, c, d, e = packed_values
 print(a, b, c, d, e) # 1, 2, 3, 4, 5
 ```
 
-'*'을 활용한 패킹 (함수 인자 전달)
+**'*'을 활용한 패킹 (함수 인자 전달)**
 - 리스트나 튜플 앞에 *를 붙여 각 요소를 함수의 개별 위치 인자로 전달 
 
 ```python
@@ -554,7 +554,7 @@ names = ['alice', 'jane', 'peter']
 my_function(*name) # alice jane peter
 ```
 
-'**'을 활용한 언패킹 (딕셔너리 -> 함수 키워드 인자)
+**`'**'`을 활용한 언패킹 (딕셔너리 -> 함수 키워드 인자)`**
 - 딕셔너리 앞에 **를 붙여 {키:값}쌍을 키 = 값 형태의 키워드 인자로 전달
 
 ```python
@@ -576,7 +576,7 @@ my_function(**my_dict) # 1 2 3
 
 ## 함수와 반환
 
-함수의 return, 반환의 원칙
+**함수의 return, 반환의 원칙**
 - 파이썬 함수는 언제나 단 하나의 값(객체)만 반환할 수 있음
 - 여러 값을 반환하는 경우에도 하나의 튜플로 패킹하여 반환
 
@@ -590,7 +590,7 @@ user_data = get_user_info()
 print(user_data) # ('Alice', 30) 단 하나의 튜플로 반환 
 ```
 
-파이썬 함수의 반환 핵심
+**파이썬 함수의 반환 핵심**
 - 파이썬 함수는 오직 **하나의 값(객체)**만 return 할 수 있음
 - return a, b, c 처럼 콤마를 사용하면, 파이썬 값들을 하나의 튜플로 자동 패킹하여 반환
 - 반환된 튜플은 각 변수에 언패킹하여 사용할 수 있음
@@ -601,12 +601,12 @@ print(user_data) # ('Alice', 30) 단 하나의 튜플로 반환
 
 Lambda expressions: 익명 함수를 만드는 데 사용되는 표현식, 한 줄로 간단한 함수로 정의
 
-람다 표현식 구조
+**람다 표현식 구조**
 - lambda 키워드: 람다 함수를 선언하기 위해 사용되는 키워드
 - 매개변수: 함수에 전달되는 매개변수들, 여러 개의 매개변수는 쉼표로 구분
 - 표현식: 함수의 실행되는 코드 블록으로, 결과값을 반환하는 표현식으로 작성
 
-람다 표현식 예시 
+**람다 표현식 예시**
 - 간단한 연산이나 함수를 만들 때, 함수를 매개변수로 전달할 때 유용
 
 **Pre**
@@ -629,7 +629,7 @@ result = addition(3, 5)
 print(result) # 8
 ```
 
-람다 표현식 활용(with map 함수)
+**람다 표현식 활용(with map 함수)**
 
 ```python
 numbers = [1, 2, 3, 4, 5]
