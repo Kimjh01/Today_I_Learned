@@ -4,6 +4,8 @@ Binary Search : **정렬된 리스트**에서 검색 범위를 줄여 나가면�
 
 * 매 단계마다 탐색 범위를 절반으로 줄이므로 **시간 복잡도는 O(log n)**
 
+---
+
 ## 탐색 단계
 
 1. `low` 를 배열의 시작 Index (0)으로 `high`를 배열의 마지막 Index (n-1)으로 지정
@@ -14,6 +16,7 @@ Binary Search : **정렬된 리스트**에서 검색 범위를 줄여 나가면�
     - `if(arr[mid] < target):`, 왼쪽 절반(`low = mid + 1`)을 버리고 오른쪽 절반 탐색
 4. low > high가 되면 탐색 실패
 
+---
 
 # 이진 탐색(Binary Search) 구현
 
@@ -44,6 +47,8 @@ if __name__ == "__main__":
     print(binary_search(data, 4))
 
 ```
+
+---
 
 ## C++ Code
 
