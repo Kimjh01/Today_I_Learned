@@ -105,7 +105,7 @@ print(person) # {}
 
 ```
 
-.serdefault(key[,default]): 키와 연결된 값을 반환, 키가 없다면 default와 연결한 키를 딕셔너리에 추가하고 default를 반환 
+.setdefault(key[,default]): 키와 연결된 값을 반환, 키가 없다면 default와 연결한 키를 딕셔너리에 추가하고 default를 반환 
 
 ```python 
 
