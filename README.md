@@ -7,17 +7,15 @@
 
 ```bash
 TIL/
-├── Week/
-│   ├── Day01.md
-│   ├── Day02.md
+├── TIL/
+│   ├── CSS
+│       └── Readme.md
+│   ├── Stack 1
+│       └── Readme.md
 │   └── ...
 ├── Algorithm/
 │   ├── DFS_BFS.md
 │   ├── DynamicProgramming.md
-│   └── ...
-├── Language/
-│   ├── C++_Basics.md
-│   ├── Python_Syntax.md
 │   └── ...
 ├── CS/
 │   ├── OperatingSystem.md
@@ -26,7 +24,7 @@ TIL/
 ````
 
 > 📌 일자별 학습 내용은 `WeekXX/DayXX.md`,
-> 주제별 이론/정리는 `Algorithm/`, `Language/`, `CS/` 폴더에 정리합니다.
+> 주제별 이론/정리는 `Algorithm/`, `Data_Structure/`, `CS/` 폴더에 정리합니다.
 
 ---
 
